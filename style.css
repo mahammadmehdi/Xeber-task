@@ -1,0 +1,83 @@
+.esas {
+    position: relative;
+    border: 1px solid black;
+    width: 400px;
+    height: 400px;
+    margin: auto;
+
+}
+
+.yazi {
+    position: absolute;
+    border: 1px solid black;
+    width: 400px;
+    height: 75px;
+    top: 325px;
+    font-size: 15px;
+    color: azure;
+    background-color: rgb(34, 26, 26)
+}
+
+.sekil {
+    width: 400px;
+    height: 325px;
+    position: absolute;
+}
+
+.soz {
+    position: absolute;
+    padding-left: 10px;
+    padding-top: 25px;
+}
+
+.sag {
+
+    position: absolute;
+    top: 175px;
+    right: 18px;
+    font-size: 50px;
+}
+
+.sag:hover {
+    cursor: pointer;
+}
+
+
+.sol:hover {
+
+    cursor: pointer;
+}
+
+.sol {
+
+    position: absolute;
+    top: 175px;
+    left: 18px;
+    font-size: 50px;
+}
+
+.vaxt {
+
+    position: absolute;
+    border: 1px solid rgb(2, 86, 77);
+    width: 150px;
+    height: 30px;
+    left: 0px;
+    bottom: 74px;
+    background-color: rgb(2, 86, 77);
+
+
+
+}
+
+.tarix {
+    left: 10px;
+    top: 5px;
+    position: absolute;
+}
+
+.say {
+    left: 97px;
+    top: 0px;
+    position: absolute;
+}
