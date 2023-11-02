@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.box{
+    width: 70px;
+    height: 70px;
+    background-color: hotpink;
+    border: 3px solid black;
+    transition: all 1s;
+}
+
+    </style>
+</head>
+<body>
+    
+
+<input  type="text" id="color">
+<input  type="text1" id="width">
+<input  type="submit" value="submit" id="btn">
+<div class="box" ></div>
+
+
+
+
+
+    <script>
+
+const button = document.getElementById("btn")
+const width = document.getElementById("width")
+const color = document.getElementById("color")
+const box = document.querySelector(".box")
+
+
+
+        button.addEventListener("click", function () {
+            
+            box.style.backgroundColor=color.value;
+            box.style.width=width.value;
+        })
+
+
+
+
+
+    </script>
+</body>
+</html>
